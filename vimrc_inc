@@ -7,3 +7,5 @@ colorscheme desert
 set tags=tags;
 set autochdir
 
+let mapleader = ","
+nmap <Leader>t :!ctags -R<cr>
