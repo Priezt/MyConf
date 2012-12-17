@@ -4,3 +4,6 @@ set encoding=utf-8
 set tabstop=4
 colorscheme desert
 
+set tags=tags;
+set autochdir
+
