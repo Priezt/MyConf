@@ -7,6 +7,7 @@ alias grep='grep --color=auto'
 alias vi=vim
 
 export PATH=$HOME/local/bin:$HOME/tools:$PATH
+export GIT_SSL_NO_VERIFY=true
 
 #export HTTP_CLIENT="wget --no-check-certificate -O"
 export HTTP_CLIENT="curl --insecure -f -L -o"
