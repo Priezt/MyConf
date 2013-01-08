@@ -7,5 +7,7 @@ colorscheme desert
 set tags=tags;
 set autochdir
 
+au BufRead,BufNewFile *.tt set syntax=html
+
 let mapleader = ","
 nmap <Leader>t :!ctags -R<cr>
