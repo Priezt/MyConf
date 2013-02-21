@@ -1,0 +1,10 @@
+autocmd BufRead,BufNewFile *.cf set filetype=spamassassin
+autocmd FileType spamassassin set syntax=spamassassin
+
+nmap <Leader>m {V}!meta<cr>
+nmap <Leader>s {V}!see<cr>}}{
+nmap <Leader>p {V}!qr predict<cr>
+nmap <Leader>l {V}!split-rule-by-so.rb<cr>
+nmap <Leader>i {V}!qr ip<cr>
+nmap <Leader>b /BLACKSHEEP<cr>
+
