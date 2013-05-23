@@ -7,6 +7,8 @@ colorscheme desert
 set tags=tags;
 set autochdir
 
+set incsearch
+
 au BufRead,BufNewFile *.tt set syntax=html
 
 let mapleader = ","
