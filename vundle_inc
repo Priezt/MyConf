@@ -11,5 +11,6 @@ Bundle 'The-NERD-tree'
 Bundle 'ZenCoding.vim'
 Bundle 'ctrlp.vim'
 Bundle 'taglist.vim'
+Bundle 'spamassassin.vim'
 
 filetype plugin indent on     " required!
