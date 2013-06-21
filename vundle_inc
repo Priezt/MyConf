@@ -10,5 +10,6 @@ Bundle 'comments.vim'
 Bundle 'The-NERD-tree'
 Bundle 'ZenCoding.vim'
 Bundle 'ctrlp.vim'
+Bundle 'taglist.vim'
 
 filetype plugin indent on     " required!

@@ -15,6 +15,7 @@ au BufRead,BufNewFile *.tt set syntax=html
 let mapleader = ","
 nmap <Leader>t :!ctags -R<cr>
 nmap <Leader>n :set number!<cr>
+nmap <Leader>q :TlistToggle<cr>
 
 nmap <C-e> :NERDTreeToggle<cr>
 
