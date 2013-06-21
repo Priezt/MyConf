@@ -8,5 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'comments.vim'
 Bundle 'The-NERD-tree'
+Bundle 'ZenCoding.vim'
+Bundle 'ctrlp.vim'
 
 filetype plugin indent on     " required!
