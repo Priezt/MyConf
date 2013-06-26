@@ -16,6 +16,7 @@ let mapleader = ","
 nmap <Leader>t :!ctags -R<cr>
 nmap <Leader>n :set number!<cr>
 nmap <Leader>q :TlistToggle<cr>
+nmap <Leader>f :set foldmethod=syntax<cr>:set foldlevelstart=1<cr>:let perl_fold=1<cr>:set filetype=perl<cr>
 
 nmap <C-e> :NERDTreeToggle<cr>
 

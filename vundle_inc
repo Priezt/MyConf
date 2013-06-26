@@ -12,5 +12,6 @@ Bundle 'ZenCoding.vim'
 Bundle 'ctrlp.vim'
 Bundle 'taglist.vim'
 Bundle 'spamassassin.vim'
+Bundle 'vim-perl'
 
 filetype plugin indent on     " required!
