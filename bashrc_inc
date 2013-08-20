@@ -18,4 +18,5 @@ export GIT_SSL_NO_VERIFY=true
 export HTTP_CLIENT="curl --insecure -f -L -o"
 
 source ~/MyConf/mark.sh
+source ~/MyConf/git-completion.bash
 
