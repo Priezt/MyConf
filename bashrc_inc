@@ -10,6 +10,14 @@ fi
 alias ll='ls -l'
 alias grep='grep --color=auto'
 alias vi=vim
+alias cd..2='cd ../..'
+alias cd..3='cd ../../..'
+alias cd..4='cd ../../../..'
+alias cd..5='cd ../../../../..'
+alias cd..6='cd ../../../../../..'
+alias cd..7='cd ../../../../../../..'
+alias cd..8='cd ../../../../../../../..'
+alias cd..9='cd ../../../../../../../../..'
 
 export PATH=$HOME/local/bin:$HOME/tools:$PATH
 export GIT_SSL_NO_VERIFY=true
