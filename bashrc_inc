@@ -27,4 +27,5 @@ export HTTP_CLIENT="curl --insecure -f -L -o"
 
 source ~/MyConf/mark.sh
 source ~/MyConf/git-completion.bash
+source ~/MyConf/completion.sh
 
