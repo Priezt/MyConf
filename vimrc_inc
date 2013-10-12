@@ -5,6 +5,10 @@ set tabstop=4
 set shiftwidth=4
 colorscheme desert
 
+hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
+hi TabLine ctermfg=Blue ctermbg=DarkGreen
+hi TabLineSel ctermfg=Yellow ctermbg=Blue
+
 set tags=tags;
 set autochdir
 
