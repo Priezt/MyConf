@@ -5,6 +5,10 @@ set tabstop=4
 set shiftwidth=4
 colorscheme desert
 
+hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
+hi TabLine ctermfg=Blue ctermbg=DarkGreen
+hi TabLineSel ctermfg=Yellow ctermbg=Blue
+
 set tags=tags;
 set autochdir
 
@@ -19,4 +23,8 @@ nmap <Leader>q :TlistToggle<cr>
 nmap <Leader>f :set foldmethod=syntax<cr>:set foldlevelstart=1<cr>:let perl_fold=1<cr>:set filetype=perl<cr>
 
 nmap <C-e> :NERDTreeToggle<cr>
-
+imap <C-j> <esc>yypp$^c$}<esc>kkA{<esc>j>>$^c$
+imap <C-k> <esc>yypp$^c$end<esc>kkA<space>do<esc>j>>$^c$
+imap <C-l> <esc>yyp$^c$end<esc>kA<space>do<space>\|\|<esc>i
+nmap <C-h> gT
+nmap <C-l> gt
