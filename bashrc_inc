@@ -18,6 +18,7 @@ alias cd..6='cd ../../../../../..'
 alias cd..7='cd ../../../../../../..'
 alias cd..8='cd ../../../../../../../..'
 alias cd..9='cd ../../../../../../../../..'
+alias newest='find . -type f -exec ls -1lt "{}" + | head '
 
 export PATH=$HOME/local/bin:$HOME/tools:$PATH
 export GIT_SSL_NO_VERIFY=true
