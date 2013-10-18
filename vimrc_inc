@@ -28,3 +28,4 @@ imap <C-k> <esc>yypp$^c$end<esc>kkA<space>do<esc>j>>$^c$
 imap <C-l> <esc>yyp$^c$end<esc>kA<space>do<space>\|\|<esc>i
 nmap <C-h> gT
 nmap <C-l> gt
+nmap <C-u> <esc>:Unite<space>
