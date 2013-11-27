@@ -29,3 +29,4 @@ imap <C-l> <esc>yyp$^c$end<esc>kA<space>do<space>\|\|<esc>i
 nmap <C-h> gT
 nmap <C-l> gt
 nmap <C-u> <esc>:Unite<space>
+nmap <C-s> :w<cr>
