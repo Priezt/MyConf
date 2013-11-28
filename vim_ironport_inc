@@ -8,4 +8,6 @@ nmap <Leader>l {V}!split-rule-by-so.rb<cr>
 nmap <Leader>i {V}!qr ip<cr>
 nmap <Leader>b /BLACKSHEEP<cr>
 nmap <Leader>o gg/OBVIOUS<cr>/^[a-z]<cr>
+nmap <Leader>g o<esc>V!cat<space>~/t\|same-hit.sh<cr>
+
 
