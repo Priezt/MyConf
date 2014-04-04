@@ -9,3 +9,9 @@ function _rakecomplete() {
 }
 
 complete -o default -o nospace -F _rakecomplete rake
+
+complete -c which
+complete -c man
+complete -c sudo
+
+
