@@ -14,4 +14,5 @@ complete -c which
 complete -c man
 complete -c sudo
 
-
+export IFS=" "
+complete -W "submit sync integrate edit revert" p4
