@@ -31,4 +31,6 @@ nmap <C-l> gt
 nmap <C-u> <esc>:Unite<space>
 nmap <C-s> :w<cr>
 
-source ~/MyConf/vundle_inc
+if filereadable("~/MyConf/vundle_inc")
+	source ~/MyConf/vundle_inc
+endif
