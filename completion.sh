@@ -15,4 +15,4 @@ complete -c man
 complete -c sudo
 
 export IFS=" "
-complete -W "submit sync integrate edit revert" p4
+#complete -W "submit sync integrate edit revert" p4 # this shit will prevent p4 from filename completion
