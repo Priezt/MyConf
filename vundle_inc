@@ -16,5 +16,6 @@ Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Shougo/unite.vim'
 Bundle 'vim-scripts/openscad.vim'
+Bundle 'terryma/vim-multiple-cursors'
 
 filetype plugin indent on     " required!
