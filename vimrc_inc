@@ -31,6 +31,10 @@ nmap <C-l> gt
 nmap <C-u> <esc>:Unite<space>
 nmap <C-s> :w<cr>
 
-if filereadable("~/MyConf/vundle_inc")
+"echom "check vundle_inc"
+"if filereadable("~/MyConf/vundle_inc")
+"	echom "found vundle_inc"
 	source ~/MyConf/vundle_inc
-endif
+"else
+"	echom "missing vundle_inc"
+"endif
