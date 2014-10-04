@@ -7,6 +7,13 @@ else
 	ln -s ~/MyConf/.gitconfig ~/.gitconfig
 fi
 
+if [ -e ~/.gitignore ]
+then
+	echo .gitignore already exists
+else
+	ln -s ~/MyConf/.gitignore ~/.gitignore
+fi
+
 if [ -e ~/.tmux.conf ]
 then
 	echo .tmux.conf already exists
