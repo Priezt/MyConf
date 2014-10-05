@@ -49,6 +49,8 @@ else
 	echo 'source ~/.bashrc' >> ~/.bash_profile
 fi
 
+touch ~/.vimrc
+
 if grep vimrc_inc ~/.vimrc
 then
 	echo vimrc_inc found in ~/.vimrc
