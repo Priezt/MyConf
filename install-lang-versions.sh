@@ -10,7 +10,7 @@ plenv rehash
 #pyenv install --list
 pyenv install 2.7.8
 pyenv rehash
-plenv global 2.7.8
+pyenv global 2.7.8
 
 #rbenv install --list
 rbenv install 2.1.3
