@@ -9,3 +9,6 @@ sudo apt-get -y install libbz2-dev
 sudo apt-get -y install libsqlite3-dev
 sudo apt-get -y install python-openssl
 sudo apt-get -y install libssl-dev
+sudo apt-get -y install libxml2-dev
+sudo apt-get -y install libxslt1-dev
+
