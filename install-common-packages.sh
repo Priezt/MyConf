@@ -13,4 +13,5 @@ sudo apt-get -y install libxml2-dev
 sudo apt-get -y install libxslt1-dev
 sudo apt-get -y install pcregrep
 sudo apt-get -y install parallel
+sudo apt-get -y install nodejs
 

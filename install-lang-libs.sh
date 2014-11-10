@@ -6,4 +6,5 @@ gem install highline
 gem install nokogiri
 gem install google_drive
 easy_install pyquery
+gem install jekyll
 
