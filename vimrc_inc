@@ -31,3 +31,8 @@ nmap <C-l> gt
 nmap <C-u> <esc>:Unite<space>
 nmap <C-s> :w<cr>
 
+function! AppendLineToReg()
+	let @"=@".getline('.')."\n"
+endfunction
+nmap YY :call<space>AppendLineToReg()<cr>
+
