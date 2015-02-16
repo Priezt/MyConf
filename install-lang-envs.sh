@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # plenv
-git clone git://github.com/tokuhirom/plenv.git ~/.plenv
-git clone git://github.com/tokuhirom/Perl-Build.git ~/.plenv/plugins/perl-build/
+git clone https://github.com/tokuhirom/plenv.git ~/.plenv
+git clone https://github.com/tokuhirom/Perl-Build.git ~/.plenv/plugins/perl-build/
 
 # pyenv
-git clone git://github.com/yyuu/pyenv.git ~/.pyenv
+git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 
 # rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
