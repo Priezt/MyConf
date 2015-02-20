@@ -14,4 +14,5 @@ sudo apt-get -y install libxslt1-dev
 sudo apt-get -y install pcregrep
 sudo apt-get -y install parallel
 sudo apt-get -y install nodejs
+sudo apt-get -y install rlwrap
 
