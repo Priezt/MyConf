@@ -15,4 +15,6 @@ sudo apt-get -y install pcregrep
 sudo apt-get -y install parallel
 sudo apt-get -y install nodejs
 sudo apt-get -y install rlwrap
+sudo apt-get -y install vim
+sudo apt-get -y install tmux
 
