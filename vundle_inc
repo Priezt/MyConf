@@ -23,6 +23,7 @@ Plugin 'mattn/gist-vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'junegunn/fzf'
+Plugin 'terryma/vim-expand-region'
 
 call vundle#end()
 filetype plugin indent on     " required!
