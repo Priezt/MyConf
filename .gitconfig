@@ -13,3 +13,5 @@
 
 [github]
 	user = Priezt
+[push]
+	default = matching
