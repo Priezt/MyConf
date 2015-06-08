@@ -12,3 +12,10 @@ source ~/MyConf/mark.sh
 source ~/MyConf/git-completion.bash
 source ~/MyConf/completion.sh
 
+# to install smartcd
+# cd /tmp ; git clone https://github.com/cxreg/smartcd.git ; cd smartcd ; make install ; source load_smartcd ; smartcd config
+# https://github.com/cxreg/smartcd
+
+if [ -f ~/.smartcd_config ]; then
+	. ~/.smartcd_config
+fi
