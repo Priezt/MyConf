@@ -12,7 +12,7 @@ complete -o default -o nospace -F _rakecomplete rake
 _make_variables()
 {
 	local cur=${COMP_WORDS[COMP_CWORD]}
-	local var=$(make -p Makefile | egrep '^[a-zA-Z0-9_ ]+:' | sed 's/ .*//')
+	local var=$(make -p Makefile | egrep '^[a-zA-Z0-9_ ]+:' | sed 's/ .*//'| sed 's/:.*//')
 	compopt -o nospace
 	COMPREPLY=( $(compgen -W "${var}" -- ${cur}) )
 }
