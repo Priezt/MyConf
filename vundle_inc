@@ -25,6 +25,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'junegunn/fzf'
 Plugin 'terryma/vim-expand-region'
 Plugin 'python.vim'
+Plugin 'rking/ag.vim'
 
 call vundle#end()
 filetype plugin indent on     " required!
