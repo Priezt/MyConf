@@ -39,4 +39,4 @@ endfunction
 nmap YY :call<space>AppendLineToReg()<cr>
 
 au BufRead,BufNewFile *.js imap fx function(){}<esc>
-
+au BufRead,BufNewFile *.py set expandtab
