@@ -1,0 +1,24 @@
+" git clone https://github.com/VundleVim/Vundle.vim.git /cygdrive/c/NetDisk/Apps/gvim/vimfiles/bundle/Vundle.vim
+
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=/NetDisk/Apps/gvim/vimfiles/bundle/Vundle.vim
+call vundle#begin()
+call vundle#rc('$VIMRUNTIME/../vimfiles/bundle')
+
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'comments.vim'
+Plugin 'The-NERD-tree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Shougo/unite.vim'
+Plugin 'vim-scripts/openscad.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+Plugin 'terryma/vim-expand-region'
+Plugin 'python.vim'
+
+call vundle#end()
+filetype plugin indent on     " required!
