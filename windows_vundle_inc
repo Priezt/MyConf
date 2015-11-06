@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'comments.vim'
 Plugin 'The-NERD-tree'
+Plugin 'taglist.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'vim-scripts/openscad.vim'
@@ -19,6 +20,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'terryma/vim-expand-region'
 Plugin 'python.vim'
+Plugin 'mickaobrien/vim-stackoverflow'
 
 call vundle#end()
 filetype plugin indent on     " required!
