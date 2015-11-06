@@ -26,6 +26,7 @@ Plugin 'junegunn/fzf'
 Plugin 'terryma/vim-expand-region'
 Plugin 'python.vim'
 Plugin 'rking/ag.vim'
+Plugin 'mickaobrien/vim-stackoverflow'
 
 call vundle#end()
 filetype plugin indent on     " required!
