@@ -22,6 +22,7 @@ nmap <Leader>t :!ctags -R<cr>
 nmap <Leader>n :set number!<cr>
 nmap <Leader>f :set foldmethod=syntax<cr>:set foldlevelstart=1<cr>:let perl_fold=1<cr>:set filetype=perl<cr>
 nmap <Leader>cc :CtrlPClearCache<cr>
+nmap <Leader>o :StackOverflow<space>
 
 nmap <C-y> :TlistToggle<cr>
 nmap <C-e> :NERDTreeToggle<cr>
