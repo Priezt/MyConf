@@ -22,6 +22,7 @@ nmap <Leader>t :!ctags -R<cr>
 nmap <Leader>n :set number!<cr>
 nmap <Leader>f :set foldmethod=syntax<cr>:set foldlevelstart=1<cr>:let perl_fold=1<cr>:set filetype=perl<cr>
 nmap <Leader>cc :CtrlPClearCache<cr>
+nmap <Leader>o :StackOverflow<space>
 
 nmap <C-y> :TlistToggle<cr>
 nmap <C-e> :NERDTreeToggle<cr>
@@ -39,7 +40,11 @@ endfunction
 nmap YY :call<space>AppendLineToReg()<cr>
 
 au BufRead,BufNewFile *.js imap fx function(){}<esc>
+<<<<<<< HEAD
 
 " let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " nmap s <Plug>(easymotion-s)
 " let g:EasyMotion_smartcase = 1
+=======
+au BufRead,BufNewFile *.py set expandtab
+>>>>>>> cf41191cb42072099a737e4acf461cdfbe0743cc
