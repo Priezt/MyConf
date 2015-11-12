@@ -28,6 +28,7 @@ Plugin 'python.vim'
 Plugin 'rking/ag.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mickaobrien/vim-stackoverflow'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()
 filetype plugin indent on     " required!
