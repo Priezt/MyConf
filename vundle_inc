@@ -10,10 +10,13 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'comments.vim'
 Plugin 'The-NERD-tree'
+	nmap <C-e> :NERDTreeToggle<cr>
 Plugin 'ZenCoding.vim'
 Plugin 'taglist.vim'
+	nmap <C-y> :TlistToggle<cr>
 Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
+	nmap <Leader>cc :CtrlPClearCache<cr>
 " Plugin 'Shougo/unite.vim'
 Plugin 'vim-scripts/openscad.vim'
 Plugin 'tpope/vim-fugitive'
@@ -24,11 +27,15 @@ Plugin 'mattn/gist-vim'
 Plugin 'honza/vim-snippets'
 Plugin 'junegunn/fzf'
 Plugin 'terryma/vim-expand-region'
+	" press '+' to select wider area
 Plugin 'python.vim'
 Plugin 'rking/ag.vim'
+	nmap <Leader>ag :Ag<cr>
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mickaobrien/vim-stackoverflow'
+	nmap <Leader>o :StackOverflow<space>
 Plugin 'terryma/vim-multiple-cursors'
+	" move to a work, press 'ctrl-n' to select one by one, then press 's' to change
 
 call vundle#end()
 filetype plugin indent on     " required!
