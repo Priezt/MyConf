@@ -26,11 +26,8 @@ Plugin 'junegunn/fzf'
 Plugin 'terryma/vim-expand-region'
 Plugin 'python.vim'
 Plugin 'rking/ag.vim'
-<<<<<<< HEAD
 Plugin 'easymotion/vim-easymotion'
-=======
 Plugin 'mickaobrien/vim-stackoverflow'
->>>>>>> cf41191cb42072099a737e4acf461cdfbe0743cc
 
 call vundle#end()
 filetype plugin indent on     " required!

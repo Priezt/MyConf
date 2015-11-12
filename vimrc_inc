@@ -40,11 +40,8 @@ endfunction
 nmap YY :call<space>AppendLineToReg()<cr>
 
 au BufRead,BufNewFile *.js imap fx function(){}<esc>
-<<<<<<< HEAD
+au BufRead,BufNewFile *.py set expandtab
 
 " let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " nmap s <Plug>(easymotion-s)
 " let g:EasyMotion_smartcase = 1
-=======
-au BufRead,BufNewFile *.py set expandtab
->>>>>>> cf41191cb42072099a737e4acf461cdfbe0743cc
