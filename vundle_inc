@@ -36,7 +36,6 @@ Plugin 'mickaobrien/vim-stackoverflow'
 	nmap <Leader>o :StackOverflow<space>
 Plugin 'terryma/vim-multiple-cursors'
 	" move to a work, press 'ctrl-n' to select one by one, then press 's' to change
-Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on     " required!
