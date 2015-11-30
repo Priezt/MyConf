@@ -25,6 +25,7 @@ Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 " Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+	" enter for/while/... and press <TAB>
 Plugin 'junegunn/fzf'
 Plugin 'terryma/vim-expand-region'
 	" press '+' to select wider area

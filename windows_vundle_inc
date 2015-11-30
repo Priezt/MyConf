@@ -21,6 +21,7 @@ Plugin 'vim-scripts/openscad.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+	" enter for/while/... and press <TAB>
 Plugin 'terryma/vim-expand-region'
 	" press '+' to select wider area
 Plugin 'python.vim'
