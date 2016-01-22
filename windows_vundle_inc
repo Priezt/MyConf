@@ -16,6 +16,10 @@ Plugin 'taglist.vim'
 	nmap <C-y> :TlistToggle<cr>
 Plugin 'kien/ctrlp.vim'
 	nmap <Leader>cc :CtrlPClearCache<cr>
+	let g:ctrlp_custom_ignore = {
+	\ 'dir': 'node_modules$\|\.git$',
+	\ 'file': '\.dat$'
+	\}
 Plugin 'Shougo/unite.vim'
 Plugin 'vim-scripts/openscad.vim'
 Plugin 'tpope/vim-surround'
