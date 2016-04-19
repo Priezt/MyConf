@@ -10,6 +10,7 @@ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 # rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+# git pull above to get more versions
 
 if grep langs-inc.sh ~/.bashrc
 then
