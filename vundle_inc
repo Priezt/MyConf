@@ -9,8 +9,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'comments.vim'
-Plugin 'The-NERD-tree'
+" Plugin 'The-NERD-tree'
+Plugin 'scrooloose/nerdtree'
 	nmap <C-e> :NERDTreeToggle<cr>
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ZenCoding.vim'
 Plugin 'taglist.vim'
 	nmap <C-y> :TlistToggle<cr>
