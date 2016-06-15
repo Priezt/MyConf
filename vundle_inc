@@ -13,6 +13,17 @@ Plugin 'comments.vim'
 Plugin 'scrooloose/nerdtree'
 "	nmap <C-e> :NERDTreeToggle<cr>
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+	let g:NERDTreeIndicatorMapCustom = {
+		\ "Modified" : "*",
+		\ "Staged" : "+",
+		\ "Untracked" : "&",
+		\ "Renamed" : "~",
+		\ "Unmerged" : "=",
+		\ "Deleted" : "-",
+		\ "Dirty" : "%",
+		\ "Clean" : "@",
+		\ "Unknown" : "?"
+		\ }
 Plugin 'jistr/vim-nerdtree-tabs'
 	nmap <C-e> <plug>NERDTreeTabsToggle<cr>
 Plugin 'ZenCoding.vim'
