@@ -17,4 +17,12 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install rlwrap
 sudo apt-get -y install vim
 sudo apt-get -y install tmux
+sudo apt-get -y install make
+sudo apt-get -y install wget
+sudo apt-get -y install curl
+sudo apt-get -y install llvm
+sudo apt-get -y install libncurses5-dev
+sudo apt-get -y install libncursesw5-dev
+sudo apt-get -y install vim-nox-py2
+
 
