@@ -1,20 +1,20 @@
 #!/bin/sh
 
 #plenv install --list
-plenv install 5.21.4
+plenv install 5.25.2
 plenv rehash
-plenv global 5.21.4
+plenv global 5.25.2
 plenv install-cpanm
 plenv rehash
 
 #pyenv install --list
-pyenv install 2.7.8
+pyenv install 2.7.12
 pyenv rehash
-pyenv global 2.7.8
+pyenv global 2.7.12
 
 #rbenv install --list
-rbenv install 2.1.3
+rbenv install 2.3.1
 rbenv rehash
-rbenv global 2.1.3
+rbenv global 2.3.1
 
 
