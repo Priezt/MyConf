@@ -24,5 +24,7 @@ sudo apt-get -y install llvm
 sudo apt-get -y install libncurses5-dev
 sudo apt-get -y install libncursesw5-dev
 sudo apt-get -y install vim-nox-py2
+sudo apt-get -y install libpq-dev
+sudo apt-get -y install libpcap-dev
 
 
