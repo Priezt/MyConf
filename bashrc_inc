@@ -4,6 +4,8 @@ export EDITOR=vim
 export PATH=$HOME/gocode/bin:$HOME/local/bin:$HOME/tools:$PATH:$HOME/node_modules/.bin
 export GIT_SSL_NO_VERIFY=true
 
+export PATH=./node_modules/.bin:$PATH
+
 #export HTTP_CLIENT="wget --no-check-certificate -O"
 export HTTP_CLIENT="curl --insecure -f -L -o"
 
