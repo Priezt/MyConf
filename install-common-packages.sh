@@ -28,5 +28,6 @@ sudo apt-get -y install libpq-dev
 sudo apt-get -y install libpcap-dev
 sudo apt-get -y install libmysqlclient-dev
 sudo apt-get -y install ctags
+sudo apt-get -y install tig
 
 
