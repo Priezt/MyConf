@@ -27,5 +27,6 @@ sudo apt-get -y install vim-nox-py2
 sudo apt-get -y install libpq-dev
 sudo apt-get -y install libpcap-dev
 sudo apt-get -y install libmysqlclient-dev
+sudo apt-get -y install ctags
 
 
